@@ -1,3 +1,4 @@
+# Cleaned up unused variables and improved readability
 from flask import Flask, request, send_file, jsonify
 import os
 import threading

@@ -37,6 +37,8 @@ def register_datanode():
     return jsonify({"status": "ok"})
 
 @app.route("/heartbeat", methods=["POST"])
+# Enhanced documentation for better understanding
+
 def heartbeat():
     data = request.get_json()
     node_id = data["node_id"]

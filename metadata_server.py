@@ -1,3 +1,4 @@
+# Improved metadata handling structure
 from flask import Flask, request, jsonify
 import time
 import threading
